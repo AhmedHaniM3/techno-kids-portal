@@ -200,7 +200,7 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
     } finally {
       setLoading(false);
     }
-  }, [user]);
+  }, [getUser]);
 
   useEffect(() => {
     loadData();
@@ -208,7 +208,7 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
       if (loading) loadData();
     }, 800);
     return () => clearTimeout(timer);
-  }, [user, loadData]);
+  }, [user, loadData, loading]);
 
   const overallAttendance = childrenList.length > 0
     ? Math.round(childrenList.reduce((acc, curr) => acc + curr.attendanceRate, 0) / childrenList.length)
@@ -222,26 +222,28 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
             const Icon = item.icon;
             const isActive = activeTab === item.id;
             return (
-              <button
+              <Button
                 key={item.id}
+                variant={isActive ? 'default' : 'ghost'}
+                size="sm"
                 onClick={() => setActiveTab(item.id)}
-                className={`flex items-center gap-2 px-4 py-3 text-sm font-semibold border-b-2 transition-colors whitespace-nowrap cursor-pointer ${
+                className={`flex items-center gap-2 cursor-pointer ${
                   isActive
-                    ? 'border-orange-600 text-orange-600'
-                    : 'border-transparent text-slate-600 hover:text-slate-900'
+                    ? 'bg-orange-600 hover:bg-orange-700 text-white'
+                    : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
                 <Icon className="h-4 w-4" />
                 {item.label}
-              </button>
+              </Button>
             );
           })}
         </div>
       </div>
 
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {loading && childrenList.length === 0 ? (
-          <div className="py-20 text-center text-slate-500 font-medium">Loading parent dashboard...</div>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+        {loading ? (
+          <div className="py-20 text-center text-slate-500 font-medium">Loading child records...</div>
         ) : (
           <>
             {activeTab === 'progress' && (
@@ -253,7 +255,7 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
                     </div>
                     <div>
                       <h2 className="text-2xl font-bold text-slate-900">Student Progress & Attendance</h2>
-                      <p className="text-sm text-slate-500">Monitor your child's attendance rates, performance tags, and lesson notes</p>
+                      <p className="text-sm text-slate-500">Monitor your child&apos;s attendance rates, performance tags, and lesson notes</p>
                     </div>
                   </div>
                   <Button variant="outline" size="sm" onClick={loadData} className="gap-2 shrink-0 cursor-pointer">
@@ -389,7 +391,7 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-2xl font-bold text-slate-900">Parent Inbox & Progress Notes</h2>
-                    <p className="text-sm text-slate-500">Direct updates and broadcast messages from your child's instructors</p>
+                    <p className="text-sm text-slate-500">Direct updates and broadcast messages from your child&apos;s instructors</p>
                   </div>
                   <Button variant="outline" size="sm" onClick={loadData} className="gap-2 shrink-0 cursor-pointer">
                     <RefreshCw className="h-4 w-4" /> Refresh
@@ -431,7 +433,7 @@ export default function ParentPortal({ currentUser: propUser }: ParentPortalProp
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-2xl font-bold text-slate-900">Course Materials & Resources</h2>
-                    <p className="text-sm text-slate-500">Access worksheets, slides, and files provided for your child's classes</p>
+                    <p className="text-sm text-slate-500">Access worksheets, slides, and files provided for your child&apos;s classes</p>
                   </div>
                   <Button variant="outline" size="sm" onClick={loadData} className="gap-2 shrink-0 cursor-pointer">
                     <RefreshCw className="h-4 w-4" /> Refresh
