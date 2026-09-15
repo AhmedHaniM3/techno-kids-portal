@@ -1,1 +1,3 @@
-export { default } from '@/app/login/page';
+import LoginPage from '../../../project/app/login/page';
+
+export default LoginPage;
