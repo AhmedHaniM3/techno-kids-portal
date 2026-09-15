@@ -1,0 +1,16 @@
+{
+  "name": "Techno Kids Portal",
+  "short_name": "Techno Kids",
+  "description": "Student, Parent, and Instructor Portal for Techno Kids",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ]
+}

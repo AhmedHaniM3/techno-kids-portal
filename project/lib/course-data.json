@@ -1,0 +1,470 @@
+{
+  "courses": [
+    {
+      "courseName": "EV3 L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Talia Waleed El Sayed Mohamed",
+          "phone": "1013127999",
+          "fees": 765
+        }
+      ]
+    },
+    {
+      "courseName": "WeDO 1.0 L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yassin Ahmed Mohamed Mokhtar",
+          "phone": "1030046550",
+          "fees": 950
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yassin Amr Hamdy Hussein",
+          "phone": "1032355104",
+          "fees": 765
+        },
+        {
+          "name": "Youssef Amr Hamdy Hussein",
+          "phone": "1032355104",
+          "fees": 765
+        },
+        {
+          "name": "Layla Wagih Medhat Abaza",
+          "phone": "",
+          "fees": 720
+        },
+        {
+          "name": "Malek Wagih Medhat Abaza",
+          "phone": "1550285566",
+          "fees": 900
+        },
+        {
+          "name": "HANA AHMED GAMAL",
+          "phone": "1122522244",
+          "fees": 765
+        },
+        {
+          "name": "Younis Ali Dawood",
+          "phone": "102202092",
+          "fees": 720
+        }
+      ]
+    },
+    {
+      "courseName": "MICRO:BIT L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Omar Ali Dawood",
+          "phone": "102202092",
+          "fees": 1000
+        },
+        {
+          "name": "YOUSSEF AHMED GAMAL",
+          "phone": "01122522244",
+          "fees": 850
+        }
+      ]
+    },
+    {
+      "courseName": "WeDO 2.0 L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Talia Ibrahim Metwally Ramadan",
+          "phone": "1211154989",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "MICRO:BIT L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Mohamed Ibrahim El-Sayad",
+          "phone": "1011702533",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "WeDO 1.0 L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yassin Ahmed Mohamed Mokhtar",
+          "phone": "1030046550",
+          "fees": 900
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yahia Osama Tarek Osama",
+          "phone": "1227788987",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "EV3 L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Tayem Sameh Saad",
+          "phone": "",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "MICRO:BIT L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Gawad Hisham Maged",
+          "phone": "1007100052",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "SPIKE ESS L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Tamara mohamed Abdellatif",
+          "phone": "01001620704",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "Tale Bot L1",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Selim Ali Abdelfattah Elshennawy",
+          "phone": "1152814810",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "ROBOFEST",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Seif Eldin Walid Shama",
+          "phone": "1024185250",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "WeDO 2.0 L2",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Gamila Ibrahim El sayad",
+          "phone": "",
+          "fees": 1000
+        },
+        {
+          "name": "Talia Ibrahim Metwally Ramadan",
+          "phone": "1211154989",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L3",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yassin Amr Hamdy Hussein",
+          "phone": "1032355104",
+          "fees": 1000
+        },
+        {
+          "name": "Youssef Amr Hamdy Hussein",
+          "phone": "1032355104",
+          "fees": 1000
+        },
+        {
+          "name": "Layla Wagih Medhat Abaza",
+          "phone": "",
+          "fees": 800
+        },
+        {
+          "name": "Malek Wagih Medhat Abaza",
+          "phone": "1550285566",
+          "fees": 1000
+        },
+        {
+          "name": "HANA AHMED GAMAL",
+          "phone": "1122522244",
+          "fees": 1000
+        },
+        {
+          "name": "Younis Ali Dawood",
+          "phone": "102202092",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "MICRO:BIT L3",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Omar Ali Dawood",
+          "phone": "102202092",
+          "fees": 1000
+        },
+        {
+          "name": "YOUSSEF AHMED GAMAL",
+          "phone": "01122522244",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "WeDO 1.0 L3",
+      "day": "Satuerday",
+      "students": [
+        {
+          "name": "Yassin Ahmed Mohamed Mokhtar",
+          "phone": "1030046550",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L1",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Farida Ahmed Mostafa Soliman",
+          "phone": "1066838780",
+          "fees": 1000
+        },
+        {
+          "name": "Lilyan Mohamed Ahmed Shaaban",
+          "phone": "1007824150",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "MICRO:BIT L3",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Mourad Shareef Shafey",
+          "phone": "01009848717",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "ELECTRO KID L1",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Layla Wagih Medhat Abaza",
+          "phone": "",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L3",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Yahia Osama Tarek Osama",
+          "phone": "1227788987",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "TALE BOT L2",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Lilyan Mohamed Ahmed Shaaban",
+          "phone": "1007824150",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "ELECTRO KID L2",
+      "day": "Sunday",
+      "students": [
+        {
+          "name": "Layla Wagih Medhat Abaza",
+          "phone": "",
+          "fees": 1000
+        }
+      ]
+    },
+    {
+      "courseName": "SPIKE ESS L1",
+      "day": "Monday",
+      "students": [
+        {
+          "name": "Lina Mohamed Mamdouh Sadek",
+          "phone": "1006633516",
+          "fees": 1200
+        },
+        {
+          "name": "Gawad Hisham Maged",
+          "phone": "1007100052",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "ART OF SCIENCE L1",
+      "day": "Monday",
+      "students": [
+        {
+          "name": "Lina Mohamed Mamdouh Sadek",
+          "phone": "1006633516",
+          "fees": 950
+        }
+      ]
+    },
+    {
+      "courseName": "ART OF SCIENCE L2",
+      "day": "Monday",
+      "students": [
+        {
+          "name": "Lina Mohamed Mamdouh Sadek",
+          "phone": "1006633516",
+          "fees": 950
+        }
+      ]
+    },
+    {
+      "courseName": "WeDo 2.0 L3",
+      "day": "Tuesday",
+      "students": [
+        {
+          "name": "Karma Ehab Farouk Abdel Aziz",
+          "phone": "",
+          "fees": 960
+        }
+      ]
+    },
+    {
+      "card": true,
+      "courseName": "PYTHON L1",
+      "day": "Tuesday",
+      "students": [
+        {
+          "name": "Yassin Tarek Gamaleldin Ahmed ElSa",
+          "phone": "1018e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "ICDL OFFICE ( MICROSOFT WORD ) L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "AbdElrahman Medhat El sayed Salem",
+          "phone": "1208e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "WEDO 2.0 L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "Omar Ahmed Zakareya",
+          "phone": "1002e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "ICDL OFFICE ( MICROSOFT WORD ) L2",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "AbdElrahman Medhat El sayed Salem",
+          "phone": "1208e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "SPIKE ESS L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "Sofia Mahmoud Elsayed Nafady",
+          "phone": "1004e+09",
+          "fees": 960
+        },
+        {
+          "name": "Aly Sherif Khalid Mohammed",
+          "phone": "101e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "EV3 L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "Mahmoud Mahmoud Elsayed Nafady",
+          "phone": "1004e+09",
+          "fees": 1200
+        }
+      ]
+    },
+    {
+      "courseName": "WEDO 1.0 L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "Omar Sherif Khalid Mohammed",
+          "phone": "101e+09",
+          "fees": 800
+        }
+      ]
+    },
+    {
+      "courseName": "ICDL OFFICE ( MICROSOFT EXCEL ) L1",
+      "day": "Wednesday",
+      "students": [
+        {
+          "name": "AbdElrahman Medhat El sayed Salem",
+          "phone": "1208e+09",
+          "fees": 1000
+        }
+      ]
+    }
+  ]
+}
